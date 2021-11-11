@@ -7,13 +7,18 @@ import { ReportComponent } from './admin/report/report/report.component';
 import { ScheduleComponent } from './admin/schedule/schedule/schedule.component';
 import { DashboardComponent } from './shared/dashboard/dashboard.component';
 import { ChartboardComponent } from './admin/dashboard/chartboard/chartboard.component';
+import { LoginComponent } from './login/login.component';
 
 
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/dashboard',
+    redirectTo: '/login',
     pathMatch: 'full',
+  },
+  {
+    path: 'login',
+    component: LoginComponent,
   },
   {
     path: 'dashboard',
