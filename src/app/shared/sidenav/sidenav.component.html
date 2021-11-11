@@ -26,20 +26,28 @@
             </li> -->
 
             <li>
-                <a routerLink="operations" data-toggle="collapse" aria-expanded="">
+                <a area-labeled="operations" routerLink="operations" data-toggle="collapse" aria-expanded="false">
                     <span class="glyphicon glyphicon-bishop"></span> Operations
                 </a>
-                <ul id="uielements" class="nav nav-second collapse">
-                    <li><a href="production.html"> <span class="glyphicon glyphicon-cog"></span> Production </a>
+                <!-- <ul id="operations" class="nav nav-second collapse">
+                    <li><a href=""> <span class="glyphicon glyphicon-cog"></span> Production </a>
                     </li>
 
                     <li>
                         <a href="breakdwn.html"> <span class="glyphicon glyphicon-cog"></span> Breakdown </a>
                     </li>
-                </ul>
+                </ul> -->
             </li>
-
-
+            <div style="margin-left: 20px;">
+                <li class="active">
+                    <a routerLink="production"> <span class="glyphicon glyphicon-calendar"></span> Production</a>
+                </li>
+                <li class="active">
+                    <a routerLink="breakdown"> <span class="glyphicon glyphicon-calendar"></span> Breakdown</a>
+                </li>
+               
+            </div>
+           
             <li class="active">
                 <a routerLink="report"><span class="glyphicon glyphicon-list-alt"></span> Report</a>
             </li>

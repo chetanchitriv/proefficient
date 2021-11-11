@@ -8,6 +8,8 @@ import { ScheduleComponent } from './admin/schedule/schedule/schedule.component'
 import { DashboardComponent } from './shared/dashboard/dashboard.component';
 import { ChartboardComponent } from './admin/dashboard/chartboard/chartboard.component';
 import { LoginComponent } from './login/login.component';
+import { ProductionComponent } from './admin/operation/production/production.component';
+import { BreakdownComponent } from './admin/operation/breakdown/breakdown.component';
 
 
 const routes: Routes = [
@@ -29,7 +31,10 @@ const routes: Routes = [
       { path: 'operations', component: OperationComponent },
       { path: 'report', component: ReportComponent },
       { path: 'data', component: DataComponent },
-      { path: '', component: ChartboardComponent }
+      { path: '', component: ChartboardComponent },
+      { path: 'production', component: ProductionComponent },
+      { path: 'breakdown', component: BreakdownComponent },
+
     ]
   }
 ];

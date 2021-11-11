@@ -2133,7 +2133,7 @@ padding: 25px 15px 0px 5px;
 
 .luna-nav.nav li a:hover,
 .luna-nav.nav li a:focus {
-  color: #c0c4c8;
+  color: #f2a60c;;
   background: inherit;
 }
 .luna-nav.nav .nav-category {
@@ -2221,7 +2221,9 @@ padding: 25px 15px 0px 5px;
   color: #61686f;
 }
 .panel.panel-filled {
-  background-color: rgba(68, 70, 79, 0.5);
+  /* background-color: rgba(68, 70, 79, 0.5); */
+
+  background-color: transparent;
 }
 .view-header {
   margin: 20px 0;
@@ -2874,7 +2876,10 @@ h6 .small,
 }
 
 
-
+table#t-transparent{
+  opacity: 0.97;
+  background: transparent;
+}
 
 
 
@@ -2882,6 +2887,9 @@ h6 .small,
   border-top: none;
   background-color: rgba(68, 70, 79, 0.5);
   margin-bottom: 20px;
+
+  opacity: 0.97;
+  background: transparent;
 }
 .nav-tabs > li a:hover {
   background: transparent;
@@ -2974,7 +2982,8 @@ h6 .small,
   border-bottom: none;
 }
 .table-striped > tbody > tr:nth-of-type(odd) {
-  background-color: rgba(68, 70, 79, 0.5);
+  background-color:#2b2926;
+  
 }
 .table > thead > tr > td.active,
 .table > tbody > tr > td.active,
@@ -2988,10 +2997,10 @@ h6 .small,
 .table > thead > tr.active > th,
 .table > tbody > tr.active > th,
 .table > tfoot > tr.active > th {
-  background-color: #494b54;
+  background-color: #242621;
 }
 .table-hover > tbody > tr:hover {
-  background-color: #494b54;
+  background-color: #2b2926;
 }
 .table-bordered,
 .table-bordered > thead > tr > th,
@@ -3000,7 +3009,7 @@ h6 .small,
 .table-bordered > thead > tr > td,
 .table-bordered > tbody > tr > td,
 .table-bordered > tfoot > tr > td {
-  border-color: #3d404c;
+  border-color: #2b2926;
 }
 .panel-filled .table > thead > tr > th,
 .panel-filled .table > tbody > tr > th,
@@ -3008,8 +3017,8 @@ h6 .small,
 .panel-filled .table > thead > tr > td,
 .panel-filled .table > tbody > tr > td,
 .panel-filled .table > tfoot > tr > td {
-  border-color: #484c5a;
-}
+  border-color: #2b2926;
+  }
 .panel-filled .table-bordered,
 .panel-filled .table-bordered > thead > tr > th,
 .panel-filled .table-bordered > tbody > tr > th,
@@ -3017,16 +3026,17 @@ h6 .small,
 .panel-filled .table-bordered > thead > tr > td,
 .panel-filled .table-bordered > tbody > tr > td,
 .panel-filled .table-bordered > tfoot > tr > td {
-  border-color: #484c5a;
-}
+  border-color:#2b2926;}
 .panel-filled .table-striped > tbody > tr:nth-of-type(odd) {
-  background-color: #44464f;
+  background-color: #2b2926;
+ border-radius: 15px;
 }
 .panel-filled .table-hover > tbody > tr:hover {
-  background-color: #494b54;
+  background-color: #2b2926;
+
 }
 th {
-  color: #ffffff;
+  color: #f2a60c;
 }
 .table > thead > tr > td.success,
 .table > tbody > tr > td.success,
@@ -3942,4 +3952,20 @@ input[type="radio"] .styled:checked + label::after {
   border-radius: 4px !important;
   color: #ffffff !important;
   padding: 6px 12px !important;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
 }
