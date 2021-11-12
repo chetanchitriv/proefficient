@@ -1,14 +1,12 @@
-<div>
+<!DOCTYPE html>
 <div class="row" style="margin-top: 20px;">
     <div class="col-8 form-group has-search">
         <span class="fa fa-search form-control-feedback"></span>
-        <input type="text" placeholder="Search for an existing production"
-            style="float: left;background-color: #2b2926;border-radius: 9px; margin-left: 9px;width: 65%; border: 1px solid #403c37; margin-bottom: 10px; height: -webkit-fill-available;"
-            class="form-control">
+        <input type="text" placeholder="Search for an existing production" style="float: left;background-color: #2b2926;border-radius: 9px; margin-left: 9px;width: 65%; border: 1px solid #403c37; margin-bottom: 10px; height: -webkit-fill-available;" class="form-control">
 
     </div>
     <div class="col-4">
-        <button class="btn btn-w-md  btn-rounded" data-toggle="modal" data-target="#myModal" style="float: right; background-color: #f7af3e; color: black;"><b> + Add
+        <button class="btn btn-w-md  btn-rounded" data-toggle="modal" data-target="#myModal" style="float: right; background-color: #f2a60c;; color: black;"><b> + Add
             Production</b></button>
     </div>
 
@@ -28,8 +26,8 @@
                             <th>Options</th>
                         </tr>
                     </thead>
-                    <tbody >
-                        <tr style="border-radius:5px;" >
+                    <tbody>
+                        <tr style="border-radius:5px;">
                             <td>Flywheel Cutter</td>
                             <td>Flywheel Disk</td>
                             <td>435,243</td>
@@ -137,40 +135,58 @@
         </div>
     </div>
 </div>
-</div>
+
+
+
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
-            <div class="modal-header text-center">
-                <h4 class="modal-title">Modal title</h4>
-                <small>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</small>
-            </div>
-            <div class="modal-body">
-                <h4 class="m-t-none">Lorem Ipsum is simply</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-                <div class="row">
-                    <div class="col-md-4">
-                        <small class="stat-label">Today</small>
-                        <h4 class="m-t-xs">170,20 <i class="fa fa-level-up text-accent"></i></h4>
+            <div class="modal-header text-left">
+                <form>
+                    <div class="form-group">
+                        <div class="row">
+                            <b class="modal-title mb-lg-4" style="color: #f2a60c; font-size:30 ;">Add Production</b>
+
+                            <button type="button" id="btnClose" class="close" data-dismiss="modal" aria-label="Close" style="color: #f2a60c;">
+					<span aria-hidden=" true ">&times;</span>
+				</button></div>
+                        <div class="col-lg-10 ">
+                            <label class="mt-3 ">Machine Name</label>
+                            <select class="select2_demo_1 form-control ">
+                                <option value="1 ">CGNI</option>
+                                <option value="2 ">Option 2</option>
+                                <option value="3 ">Option 3</option>
+                                <option value="4 ">Option 4</option>
+                                <option value="5 ">Option 5</option>
+                            </select>
+                        </div>
+
+                        <div class="col-lg-7 ">
+                            <label class="mt-3 ">Product</label>
+                            <select class="select2_demo_1 form-control " style="width: 100%; ">
+                                <option value="None ">None</option>
+                                <option value="2 "></option>
+                                <option value="3 ">Option 3</option>
+                                <option value="4 ">Option 4</option>
+                                <option value="5 ">Option 5</option>
+                            </select>
+                        </div>
+
+                        <div class="col-lg-7 ">
+                            <label class="mt-3 ">Rejection Count</label>
+                            <input type="text " class="form-control " placeholder="eg:1,000 ">
+                        </div>
+
+                        <div class="col-lg-7 ">
+                            <label class="mt-3 ">Rework Count</label>
+                            <input type="text " class="form-control " placeholder="eg:1,000 ">
+                        </div>
+                        <div>
+                            <button type="button " class=" btn btn-rounded mt-lg-5 " style=" background-color: #f2a60c;color: black; " data-dismiss="modal "><b>Add Production</b></button>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <small class="stat-label">Last month %</small>
-                        <h4 class="m-t-xs">%20,20 <i class="fa fa-level-down c-white"></i></h4>
-                    </div>
-                    <div class="col-md-4">
-                        <small class="stat-label">Last year</small>
-                        <h4 class="m-t-xs">246,40 <i class="fa fa-level-up text-accent"></i></h4>
-                    </div>
-                </div>
-                <div class="progress m-t-xs full progress-small">
-                    <div style="width: 65%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="65" role="progressbar" class=" progress-bar progress-bar-warning">
-                        <span class="sr-only">65% Complete (success)</span>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-accent">Save changes</button>
+
+                </form>
             </div>
         </div>
     </div>
