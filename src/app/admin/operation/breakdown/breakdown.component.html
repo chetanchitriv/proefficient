@@ -1,13 +1,19 @@
-<!DOCTYPE html>
+<!-- <div class="panel-body">
+    <div class="loader-example">
+        <div class="loader-dots"></div>
+    </div>
+</div> -->
 <div class="row" style="margin-top: 20px;">
     <div class="col-8 form-group has-search">
         <span class="fa fa-search form-control-feedback"></span>
-        <input type="text" placeholder="Search for an existing breakdown" style="float: left;background-color: #2b2926;border-radius: 9px; margin-left: 9px;width: 65%; border: 1px solid #403c37; margin-bottom: 10px; height: -webkit-fill-available;" class="form-control">
+        <input type="text" placeholder="Search for an existing breakdown"
+            style="float: left;background-color: #2b2926;border-radius: 9px; margin-left: 9px;width: 65%; border: 1px solid #403c37; margin-bottom: 10px; height: -webkit-fill-available;"
+            class="form-control">
 
     </div>
     <div class="col-4">
-        <button class="btn btn-w-md  btn-rounded" data-toggle="modal" data-target="#myModal" style="float: right; background-color: #f2a60c;; color: black;"> <b>+Add
-            Breakdown</b></button>
+        <button class="btn btn-w-md  btn-rounded" style="float: right; background-color: #f7af3e; color: black;"> <b>+Add
+            breakdown</b></button>
     </div>
 
 </div>
@@ -16,7 +22,8 @@
     <div class="col-md-12">
         <div class="panel panel-filled">
             <div class="panel-body">
-                <table class="table table-striped table-hover table-responsive-sm" id="t-transparent" style="border-radius: 5px;">
+                <table class="table table-striped table-hover table-responsive-sm" id="t-transparent"
+                    style="border-radius: 5px;">
                     <thead>
                         <tr>
                             <th>Machine</th>
@@ -132,68 +139,13 @@
                         </tr>
                     </tbody>
                 </table>
-                <div class="btn-group" style="float:right">
-                    <button type="button" class="btn btn-default" style="margin-right:10px ;background-color: #f2a60c;; color: black;"><i class="fa fa-chevron-left"></i></button>
-
-                    <button type="button" class="btn btn-default" style="background-color: #f2a60c;; color: black;"><i class="fa fa-chevron-right"></i></button>
+                <div class="btn-group"style="float:right">
+                    <button type="button" class="btn btn-default" style="margin-right:10px ;background-color: #f7af3e; color: black;"><i class="fa fa-chevron-left"></i></button>
+                    
+                    <button type="button" class="btn btn-default"style="background-color: #f7af3e; color: black;"><i class="fa fa-chevron-right"></i></button>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- -------------------POPUP------------ -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header text-left">
-                <form>
-                    <div class="form-group">
-                        <div class="row">
-                            <h6 class="modal-title mb-lg-4" style="color: #f2a60c; ">Add Breakdowns</h6>
-                            <button type="button" id="btnClose" class="close" data-dismiss="modal" aria-label="Close" style="color: #f2a60c;">
-                                <span aria-hidden=" true ">&times;</span>
-                        </button>
-                        </div>
 
-
-                        <div class="col-lg-10">
-                            <label class="mt-3">Machine Name</label>
-                            <select class="select2_demo_1 form-control">
-                                <option value="1 ">CGNI</option>
-                                <option value="2 ">Option 2</option>
-                                <option value="3 ">Option 3</option>
-                                <option value="4 ">Option 4</option>
-                                <option value="5 ">Option 5</option>
-                            </select>
-                        </div>
-
-                        <div class="col-lg-7 ">
-                            <label class="mt-3 ">Product</label>
-                            <select class="select2_demo_1 form-control " style="width: 100%; ">
-                                <option value="None ">None</option>
-                                <option value="2 "></option>
-                                <option value="3 ">Option 3</option>
-                                <option value="4 ">Option 4</option>
-                                <option value="5 ">Option 5</option>
-                            </select>
-                        </div>
-
-                        <div class="col-lg-7 ">
-                            <label class="mt-3 ">Rejection Count</label>
-                            <input type="text " class="form-control " placeholder="eg:1,000 ">
-                        </div>
-
-                        <div class="col-lg-7 ">
-                            <label class="mt-3 ">Rework Count</label>
-                            <input type="text " class="form-control " placeholder="eg:1,000 ">
-                        </div>
-                        <div>
-                            <button type="button " class=" btn btn-rounded mt-lg-5 " style=" background-color: #f2a60c;; color: black; " data-dismiss="modal "><b>Add Breakdown</b></button>
-                        </div>
-                    </div>
-
-                </form>
-            </div>
-        </div>
-    </div>
-</div>

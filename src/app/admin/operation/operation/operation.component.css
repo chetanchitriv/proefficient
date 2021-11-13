@@ -1,0 +1,42 @@
+.popup-box {
+    height: 365px;
+    width: 300px;
+    font-size: 13px;
+    background-color: #2e2d2d;
+    border-radius: 7px;
+    margin-left: 90px;
+}
+
+.pbc {
+    float: left;
+}
+
+.pbcd {
+    height: 175px;
+    width: 300px;
+    margin-left: 15px;
+}
+
+.pbce {
+    height: 175px;
+    width: 615px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.lsm {
+    margin-left: 90px;
+    margin-top: 15px;
+}
+
+.ll {
+    margin-top: 15px;
+}
+
+.rd {
+    color: rgb(228, 82, 82);
+}
+
+.gr {
+    color: rgb(50, 158, 50);
+}
