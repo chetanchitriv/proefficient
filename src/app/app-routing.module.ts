@@ -10,6 +10,7 @@ import { ChartboardComponent } from './admin/dashboard/chartboard/chartboard.com
 import { LoginComponent } from './login/login.component';
 import { ProductionComponent } from './admin/operation/production/production.component';
 import { BreakdownComponent } from './admin/operation/breakdown/breakdown.component';
+import { ModalsComponent } from './admin/modals/modals.component';
 
 
 const routes: Routes = [
@@ -34,6 +35,7 @@ const routes: Routes = [
       { path: '', component: ChartboardComponent },
       { path: 'production', component: ProductionComponent },
       { path: 'breakdown', component: BreakdownComponent },
+      { path: 'modal', component: ModalsComponent },
 
     ]
   }
