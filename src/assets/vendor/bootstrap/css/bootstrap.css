@@ -5710,9 +5710,10 @@ a.close.disabled {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 1rem 1rem;
-  border-bottom: 1px solid #e9ecef;
-  border-top-left-radius: 0.3rem;
-  border-top-right-radius: 0.3rem;
+  border-top-left-radius: 1.0rem;
+  border-top-right-radius: 1.0rem;
+  border-bottom-left-radius: 1.0rem;
+  border-bottom-right-radius: 1.0rem;
 }
 
 .modal-header .close {

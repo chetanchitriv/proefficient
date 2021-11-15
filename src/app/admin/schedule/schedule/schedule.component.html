@@ -1,15 +1,13 @@
-<div class="container">
+<div class="container" style="margin-top: 10px;" >
     <div class="row">
         <div class="col-8">
-            <div style="    padding-left: 31px
-            ;">
+            <div style=" padding-left: 31px;">
                 <h4>Wed , 07 Sept 2021 </h4>
             </div>
 
             <div>
                 <button class="btn btn-w-md btn-default btn-rounded " style="background-color: #f7af3e; color: black; float: right;
-                    margin-top: -40px
-                ;"> <i class="fas fa-plus"></i><b>+ Add Task </b> </button>
+                    margin-top:-42px;"> <i class="fas fa-plus"></i><b>+ Add Task </b> </button>
             </div>
             <div class="dd" id="nestable">
                 <ol class="dd-list">
@@ -152,7 +150,10 @@
                         OnsiteL&T</button> <br>
                     <br>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#superviser">
-                        Superviser</button>
+                        Superviser</button> <br> <br>
+                    <button type="button" class="btn btn-default" data-toggle="modal"
+                        data-target="#poly-carbonate-melter">
+                        PolyCarbonate</button>
 
                     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
                         <div class="modal-dialog">
@@ -269,11 +270,7 @@
                                 <div class="task-name">Task Name</div>
 
                                 <div style="width:90%; margin-left: 20px;">
-                                    <!-- <select class="select2_demo_1 form-control" style="appearance: none;">
-                                <option value="1 ">On-site L&T inspection</option>
-                                <option value="2 ">Option 2</option>
-                                
-                            </select> -->
+
 
                                     <select class="form-control m-b-xs m-t-xs" name="account"
                                         style="width: 100%; appearance: none; border:1px solid #f2a60c;">
@@ -282,30 +279,21 @@
                                         <option>Option 2</option>
                                     </select>
 
-                                </div>
-                                <div class="row">
-                                    <label class="p1">From</label>
+                                    <div class="row" style="margin-left: 20px;   border-radius: 2rem;">
+                                        <div class="col-lg-4 supervise">
+                                            <label style="margin-left: 0px;">From</label>
+                                            <input type="time" class="input-time-range" style="margin-left: -20px;">
 
-                                    <label> To</label>
-                                </div>
-                                <div class="row"
-                                    style="width:80%; height: 40px; justify-content: space-between; margin: 30px; padding-top: 7px; background:#363534; ">
+                                        </div>
 
-                                    <div class="col-lg-4 supervise">
+                                        <div class="col-lg-4 supervise">
+                                            <label for=""> To</label>
+                                            <input type="time" class="input-time-range">
 
-                                        <input type="time">
+                                        </div>
                                     </div>
-                                    <span>---</span>
 
-                                    <div class="col-lg-4 supervise">
-
-                                        <input type="time">
-                                    </div>
-                                </div>
-
-
-                                <!-- <div class="from">Inside Shift
-                                    Under Supervision</div> -->
+                                </div> <br>
 
                                 <div class="row" style="margin-left: 20px;">
                                     <div class="col-lg-4 supervise">
@@ -333,14 +321,12 @@
                                         dolor convallis mo<br>lestie. Supendisse finibus varius nulla,ac lacinia
                                         felis</p>
                                 </div> -->
-                                <textarea class="form-control" rows="3" placeholder="Textarea example text"
-                                    style="width:90%;margin-left: 20px;"></textarea>
+                                <textarea class="form-control" rows="3" placeholder="Pellentesque ac enim vitae libero ullamcorper rhoncus.Suspendisse maximus non dolor at tincidunt.Fusce in tincidunt nisi.Cras sed erat sit amet dolor convallis mo lestie. Supendisse finibus varius nulla,ac lacinia
+                                    felis" style="width:90%;margin-left: 20px;margin-top: 10px; "></textarea>
 
                                 <button class="submit" type="submit"><b>Edit</b></button>
 
                                 <!-- </div> -->
-
-
 
 
                             </div>
@@ -350,6 +336,95 @@
                     </div>
 
                     <!-- End of Schedular Popup -->
+
+                    <!-- Poly-Carbonate-Melter -->
+                    <div class="modal fade" id="poly-carbonate-melter" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog ">
+                            <div class="modal-content onsite">
+                                <!-- <div class="modal-header"> -->
+                                <!-- <div>
+                            <i id="i4" class="fa fa-times" aria-hidden="true"></i></div> -->
+                                <a class="panel-close"><i class="fa fa-times"
+                                        style="color:#f2a60c; float: right; padding-top:30px; padding-right: 20px;"></i></a>
+
+                                <!-- <div class="onsite"> -->
+
+                                <!-- <div>
+                                        <i id="trash" class="fa fa-trash" aria-hidden="true"><i id="ti"
+                                                class="fa fa-times" aria-hidden="true"></i>
+                                        </i>
+                                    </div> -->
+
+                                <div class="date">
+                                    Wed, 07 Sept 21
+                                </div>
+                                <div class="task-name">Task Name</div>
+
+                                <div style="width:90%; margin-left: 20px;">
+
+
+                                    <select class="form-control m-b-xs m-t-xs" name="account"
+                                        style="width: 100%; appearance: none; border:1px solid #f2a60c;">
+                                        <option selected="">Poly-Carbonate Melter</option>
+                                        <option>Option 1</option>
+                                        <option>Option 2</option>
+                                    </select>
+
+                                    <div class="row" style="margin-left: 20px;   border-radius: 2rem;">
+                                        <div class="col-lg-4 supervise">
+                                            <label style="margin-left: 0px;">Start</label>
+                                            <input type="time" class="input-time-range" style="margin-left: -20px;">
+
+                                        </div>
+
+                                        <div class="col-lg-4 supervise">
+                                            <label for="">End</label>
+                                            <input type="time" class="input-time-range">
+
+                                        </div>
+                                    </div>
+
+                                </div> <br>
+
+                                <div class="row" style="margin-left: 20px;">
+                                    <div class="col-lg-4 supervise">
+                                        <label for="">Reason</label>
+                                        <select class="select2_demo_1 form-control select2-hidden-accessible"
+                                            tabindex="-1" aria-hidden="true">
+                                            <option  id="select-opt"  > None </option>
+
+                                        </select>
+                                    </div>
+
+                                    <div class="col-lg-4 supervise">
+                                        <label for=""> Remark</label>
+                                        <select class="select2_demo_1 form-control select2-hidden-accessible"
+                                            tabindex="-1" aria-hidden="true">
+                                            <option id="select-opt"> None </option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="data-des"> Sub Reason </div>
+                                <!-- <div>
+                                </div> -->
+                                <!-- <ng-scrollbar> -->
+                                <textarea class="form-control" rows="3" placeholder="Pellentesque ac enim vitae libero ullamcorper rhoncus.Suspendisse maximus non dolor at tincidunt.Fusce in tincidunt nisi.Cras sed erat sit amet dolor convallis mo lestie. Supendisse finibus varius nulla,ac lacinia
+                                    felis" style="width:90%;margin-left: 20px;margin-top: 10px; "></textarea>
+                                <!-- </ng-scrollbar> -->
+
+                                <button class="submit" type="submit"><b>Edit</b></button>
+
+                                <!-- </div> -->
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- End of Popup -->
 
                 </div>
 

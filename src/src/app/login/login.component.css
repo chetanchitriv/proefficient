@@ -1,0 +1,184 @@
+.main-container {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+
+/* left part 1 */
+
+.part1 {
+    width: 40%;
+    height: 620px;
+    background: #f2a60c;
+    float: left;
+    text-align: center;
+    padding-top: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*P box    */
+
+.pbox {
+    width: 60px;
+    height: 70px;
+    font-size: 54px;
+    padding-left: 1px;
+    border-radius: 5px;
+    border: 3px solid black;
+    margin-left: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pr {
+    font-size: 45px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pa {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sbe {
+    font-size: 18px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+#pp {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* part 2 right side */
+
+aside {
+    width: 60%;
+    height: 590px;
+    float: right;
+    background-color: #262421;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* dont have account */
+
+.account {
+    margin-left: 443px;
+    color: #f2a60c;
+}
+
+
+/* sing up button */
+
+#signup-button1 {
+    width: 100px;
+    height: 30px;
+    color: black;
+    background-color: #f2a60c;
+    border-radius: 50px;
+    text-align: center;
+    border-color: #f2a60c;
+    margin-left: 25px;
+    font-size: medium;
+}
+
+
+/* lets get started */
+
+.head1 {
+    color: #f2a60c;
+    font-size: 40px;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+
+/* enter details */
+
+#en {
+    color: white;
+    margin-left: 110px;
+    font-size: 15px;
+    color: aliceblue;
+    padding-bottom: 10px;
+}
+
+.input-icons1 i {
+    position: absolute;
+}
+
+
+/* icons */
+
+.input-icons1 {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon {
+    padding-right: 10px;
+    padding: 13px;
+    padding-bottom: 10px;
+    min-width: 40px;
+    margin-left: 100px;
+    color: gray;
+    align-items: center;
+}
+
+
+/* input text field */
+
+.input-field1 {
+    padding-right: 10px;
+    height: 10px;
+    width: 320px;
+    padding: 19px;
+    margin-left: 110px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 2px solid #f2a60c;
+    background-color: #363534;
+}
+
+
+/* log in  button  */
+
+#login-button1 {
+    width: 150px;
+    height: 30px;
+    color: black;
+    background-color: #f2a60c;
+    border-radius: 50px;
+    text-align: center;
+    border-color: #f2a60c;
+    margin-left: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+
+/* check  box */
+
+.chekbox12 input[type=checkbox] {
+    outline: 2px solid #f2a60c;
+    margin-left: 15px;
+}
+
+
+/* using remember me */
+
+#span1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 7px;
+}
